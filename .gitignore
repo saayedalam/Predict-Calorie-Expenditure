@@ -1,0 +1,16 @@
+# Ignore data & outputs
+data/
+outputs/
+*.pkl
+*.csv
+
+# Ignore Jupyter artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Python envs
+.env
+.venv
+data-lab/
+
