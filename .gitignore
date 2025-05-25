@@ -14,3 +14,4 @@ __pycache__/
 .venv
 data-lab/
 
+notebooks/catboost_info/
