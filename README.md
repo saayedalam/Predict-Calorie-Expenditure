@@ -1,5 +1,5 @@
 
-# 🔥 A/B + Ensemble Project: Predicting Calorie Expenditure
+# 🔥 Ensemble Project: Predicting Calorie Expenditure
 
 This project tackles a regression problem from the **Kaggle Playground Series (S5E5)** competition. The goal is to accurately predict how many calories a person burns during physical activity based on biometric and workout-related features.
 
