@@ -86,23 +86,59 @@ To develop and optimize models that predict calorie expenditure using a combinat
 ## 📂 Project Structure
 
 ```
-/data/
-    train.csv, test.csv
-/notebooks/
-    01_eda_feature_engineering.ipynb
-    02_model_training_optuna.ipynb
-    03_ensemble_and_stacking.ipynb
-/src/
-    models/
-        train_model.py
-        ensemble.py
-    utils/
-        preprocessing.py
-        metrics.py
-/outputs/
-    submission_ensemble.csv
-requirements.txt
-README.md
+.
+├── data
+│   ├── processed
+│   └── raw
+├── logs
+│   ├── best_params
+│   ├── best_params_orig_features
+│   ├── catboost_logs
+│   └── mlruns
+├── models
+├── notebooks
+│   ├── 01_eda.ipynb
+│   ├── 02_baseline_model.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_baseline_model_fe.ipynb
+│   ├── 05_feature_selection.ipynb
+│   ├── 06_hyperparameter_tuning.ipynb
+│   ├── 07_ensemble_model.ipynb
+│   ├── init.py
+│   └── __pycache__
+├── outputs
+│   ├── metrics.csv
+│   ├── submission_avg_ensemble.csv
+│   ├── submission_baseline_catboost.csv
+│   ├── submission_baseline_catboost_fe.csv
+│   ├── submission_baseline_catboost_fe_updated.csv
+│   ├── submission_ensemble_lgbm_xgb.csv
+│   ├── submission_ensemble_optuna_v11.csv
+│   ├── submission_ensemble_tuned_v10.csv
+│   ├── submission_ensemble_tuned_v3.csv
+│   ├── submission_ensemble_tuned_v4.csv
+│   ├── submission_ensemble_tuned_v5.csv
+│   ├── submission_ensemble_tuned_v6.csv
+│   ├── submission_ensemble_tuned_v7.csv
+│   ├── submission_ensemble_tuned_v8.csv
+│   ├── submission_ensemble_tuned_v9.csv
+│   ├── submission_ensemble_v1.csv
+│   ├── submission_ensemble_v2.csv
+│   ├── submission_lgbm_cv.csv
+│   ├── submission_lgbm_v1.csv
+│   ├── submission_oof_stack_ridge_v1.csv
+│   ├── submission_stacked_ensemble.csv
+│   ├── submission_tuned_weighted_ensemble.csv
+│   ├── submission_v1.csv
+│   └── submission_weighted_ensemble.csv
+├── README.md
+├── requirements.txt
+└── src
+    ├── config.py
+    ├── __init__.py
+    ├── __pycache__
+    └── utils.py
+
 ```
 
 ---
