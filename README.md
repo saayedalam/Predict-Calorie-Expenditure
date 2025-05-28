@@ -140,6 +140,21 @@ To develop and optimize models that predict calorie expenditure using a combinat
     └── utils.py
 
 ```
+### 📌 Conclusion
+
+This project was a deep dive into building a full machine learning pipeline to predict calorie expenditure. It combined rigorous feature engineering, five base models fine-tuned with Optuna, and multiple ensemble strategies including Ridge stacking and out-of-fold (OOF) meta-modeling.
+
+Key takeaways from this project:
+
+- ✅ Developed a modular workflow using JupyterLab, Python, and MLflow
+- ✅ Applied Optuna for hyperparameter tuning across multiple regressors
+- ✅ Implemented Ridge stacking and OOF ensembling for performance gains
+- ✅ Tracked experiments and metrics using MLflow for reproducibility
+- ✅ Practiced ML competition-style evaluation through leaderboard simulation
+
+The final model demonstrated strong predictive performance and robustness on the test set. More importantly, the process reinforced production-grade ML practices, from data preprocessing to ensemble deployment.
+
+This project helped me level up my skills not just in model training but in structuring, documenting, and presenting machine learning work like a real-world engineer.
 
 ---
 
